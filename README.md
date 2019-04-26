@@ -20,7 +20,8 @@ optimization runs.
 6) If any opt runs out of time, go into the molecule's S1opt directory 
 and run optRestart.py. Submit the new .sh file (Restart is appended to the 
 original job name). 
-7) Enjoy your data! 
+7) Extract some useful information from the calculations using dimerData.py. 
+8) Enjoy your data! 
 
 This library assumes a Maui/Torque scheduler and uses the Orca quantum 
 chemistry code, but may easily be adapted for other applications. 
